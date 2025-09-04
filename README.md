@@ -25,10 +25,11 @@ A modern, responsive portfolio website built with HTML and CSS for my friend who
 
 ### **Design Features**
 - Modern gradient backgrounds
-- Clean typography using Inter font family
+- Clean typography using Playfair Display (headings) and Source Sans Pro (body)
 - Professional color scheme (purple/blue theme)
 - Card-based layouts with shadows
 - Smooth transitions and animations
+- Font Awesome icons (services and contact)
 
 ## 📱 Responsive Breakpoints
 
@@ -42,8 +43,9 @@ A modern, responsive portfolio website built with HTML and CSS for my friend who
 - **HTML5** - Semantic markup and structure
 - **CSS3** - Modern styling with Grid and Flexbox
 - **JavaScript** - Smooth scrolling and form handling
-- **Google Fonts** - Inter font family
-- **Placeholder Images** - Via placeholder.com service
+- **Google Fonts** - Playfair Display, Source Sans Pro
+- **Icons** - Font Awesome 6
+- **Images** - Unsplash backgrounds + local hero image
 
 ## 🔧 Browser Support
 
