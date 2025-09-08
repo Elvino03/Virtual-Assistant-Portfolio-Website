@@ -16,6 +16,7 @@
             <ul class="nav-menu">
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#works" class="nav-link">Works</a></li>
                 <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
@@ -107,24 +108,22 @@
     </section>
 
     <!-- See My Works Section -->
-    <section class="works hero-bg">
+    <section id="works" class="works hero-bg">
         <div class="section-overlay"></div>
         <div class="container">
-            <h2>See My Works</h2>
+            <h2>My Works</h2>
             <div class="works-slideshow">
                 <div class="slideshow-container">
                     <div class="slide active">
                         <div class="work-item">
                             <div class="work-media">
-                                <img src="assets/Email Management.png" alt="Email Management Work">
+                                <img src="assets/Email Management.png" alt="Email Management Work" style="cursor:pointer;" onclick="openImageModal('assets/Email Management.png', 'Email Management')">
                             </div>
                             <div class="work-content">
                                 <h3>Email Management</h3>
                                 <p>Professional email organization and management solutions</p>
                                 <div class="work-buttons">
-                                    <button class="view-image-btn" onclick="openImageModal('assets/Email Management.png', 'Email Management')">
-                                        <i class="fas fa-eye"></i> Preview
-                                    </button>
+
                                 </div>
                             </div>
                         </div>
@@ -132,15 +131,13 @@
                     <div class="slide">
                         <div class="work-item">
                             <div class="work-media">
-                                <img src="assets/Scheduling & Calendar Management.png" alt="Scheduling Work">
+                                <img src="assets/Scheduling & Calendar Management.png" alt="Scheduling Work" style="cursor:pointer;" onclick="openImageModal('assets/Scheduling & Calendar Management.png', 'Scheduling & Calendar Management')">
                             </div>
                             <div class="work-content">
                                 <h3>Scheduling & Calendar Management</h3>
                                 <p>Efficient calendar coordination and meeting scheduling</p>
                                 <div class="work-buttons">
-                                    <button class="view-image-btn" onclick="openImageModal('assets/Scheduling & Calendar Management.png', 'Scheduling & Calendar Management')">
-                                        <i class="fas fa-eye"></i> Preview
-                                    </button>
+
                                 </div>
                             </div>
                         </div>
@@ -148,18 +145,15 @@
                     <div class="slide">
                         <div class="work-item">
                             <div class="work-media">
-                                <img src="assets/Data Entry.png" alt="Data Entry Work">
+                                <img src="assets/Data Entry.png" alt="Data Entry Work" style="cursor:pointer;" onclick="openImageModal('assets/Data Entry.png', 'Data Entry')">
                             </div>
                             <div class="work-content">
                                 <h3><a href="https://docs.google.com/spreadsheets/d/1XBBpsNuVdm0e_t-LgtbwlBvfkvgvsxd1vPRmw__8mDQ/edit?usp=sharing" target="_blank">Data Entry</a></h3>
-                                <p>Comprehensive research and accurate data management</p>
+                                <p>Accurate research and data management</p>
                                 <div class="work-buttons">
                                     <a href="https://docs.google.com/spreadsheets/d/1XBBpsNuVdm0e_t-LgtbwlBvfkvgvsxd1vPRmw__8mDQ/edit?usp=sharing" target="_blank" class="view-work-btn">
                                         <i class="fas fa-external-link-alt"></i> View Work
                                     </a>
-                                    <button class="view-image-btn" onclick="openImageModal('assets/Data Entry.png', 'Data Entry')">
-                                        <i class="fas fa-eye"></i> Preview
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -167,7 +161,7 @@
                     <div class="slide">
                         <div class="work-item">
                             <div class="work-media">
-                                <img src="assets/Records Management.png" alt="Records Management Work">
+                                <img src="assets/Records Management.png" alt="Records Management Work" style="cursor:pointer;" onclick="openImageModal('assets/Records Management.png', 'Records Management')">
                             </div>
                             <div class="work-content">
                                 <h3><a href="https://docs.google.com/spreadsheets/d/1Doijk9CAQiH5Lcdmeu0I-Z5_GJEJBwa8tUIDCAQem6w/edit?usp=sharing" target="_blank">Records Management</a></h3>
@@ -176,9 +170,6 @@
                                     <a href="https://docs.google.com/spreadsheets/d/1Doijk9CAQiH5Lcdmeu0I-Z5_GJEJBwa8tUIDCAQem6w/edit?usp=sharing" target="_blank" class="view-work-btn">
                                         <i class="fas fa-external-link-alt"></i> View Work
                                     </a>
-                                    <button class="view-image-btn" onclick="openImageModal('assets/Records Management.png', 'Records Management')">
-                                        <i class="fas fa-eye"></i> Preview
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -186,7 +177,7 @@
                     <div class="slide">
                         <div class="work-item">
                             <div class="work-media">
-                                <video controls>
+                                <video controls style="cursor:pointer;" onclick="openVideoModal('assets/Market Research.mp4', 'Market Research')">
                                     <source src="assets/Market Research.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
@@ -198,9 +189,6 @@
                                     <a href="https://drive.google.com/drive/folders/1xyNZK2J89RPPPM5E3mpzr6bipXyRY9qO?usp=drive_link" target="_blank" class="view-work-btn">
                                         <i class="fas fa-external-link-alt"></i> View Work
                                     </a>
-                                    <button class="view-video-btn" onclick="openVideoModal('assets/Market Research.mp4', 'Market Research')">
-                                        <i class="fas fa-play"></i> Preview
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -208,7 +196,7 @@
                     <div class="slide">
                         <div class="work-item">
                             <div class="work-media">
-                                <img src="assets/Competitor Analysis.png" alt="Competitor Analysis Work">
+                                <img src="assets/Competitor Analysis.png" alt="Competitor Analysis Work" style="cursor:pointer;" onclick="openImageModal('assets/Competitor Analysis.png', 'Competitor Analysis')">
                             </div>
                             <div class="work-content">
                                 <h3><a href="https://docs.google.com/document/d/1mIOjPhXqcAJQ0kj99j0QvTPYQEWDs-ulmGjFXfd_n6s/edit?usp=sharing" target="_blank">Competitor Analysis</a></h3>
@@ -217,9 +205,6 @@
                                     <a href="https://docs.google.com/document/d/1mIOjPhXqcAJQ0kj99j0QvTPYQEWDs-ulmGjFXfd_n6s/edit?usp=sharing" target="_blank" class="view-work-btn">
                                         <i class="fas fa-external-link-alt"></i> View Work
                                     </a>
-                                    <button class="view-image-btn" onclick="openImageModal('assets/Competitor Analysis.png', 'Competitor Analysis')">
-                                        <i class="fas fa-eye"></i> Preview
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -227,7 +212,7 @@
                     <div class="slide">
                         <div class="work-item">
                             <div class="work-media">
-                                <img src="assets/Project Management.png" alt="Project Management Work">
+                                <img src="assets/Project Management.png" alt="Project Management Work" style="cursor:pointer;" onclick="openImageModal('assets/Project Management.png', 'Project Management')">
                             </div>
                             <div class="work-content">
                                 <h3><a href="https://docs.google.com/document/d/17YFLLVjuj3LnFwYXXBU83NUrgIJxoefP0lnwdNXHToo/edit?usp=sharing" target="_blank">Project Management</a></h3>
@@ -236,9 +221,6 @@
                                     <a href="https://docs.google.com/document/d/17YFLLVjuj3LnFwYXXBU83NUrgIJxoefP0lnwdNXHToo/edit?usp=sharing" target="_blank" class="view-work-btn">
                                         <i class="fas fa-external-link-alt"></i> View Work
                                     </a>
-                                    <button class="view-image-btn" onclick="openImageModal('assets/Project Management.png', 'Project Management')">
-                                        <i class="fas fa-eye"></i> Preview
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -246,7 +228,7 @@
                     <div class="slide">
                         <div class="work-item">
                             <div class="work-media">
-                                <img src="assets/Event Planning.png" alt="Event Planning Work">
+                                <img src="assets/Event Planning.png" alt="Event Planning Work" style="cursor:pointer;" onclick="openImageModal('assets/Event Planning.png', 'Event Planning')">
                             </div>
                             <div class="work-content">
                                 <h3><a href="https://drive.google.com/file/d/1wIGQc3hp22K45x4C5Dye9qETw9N9eUxQ/view?usp=sharing" target="_blank">Event Planning</a></h3>
@@ -255,9 +237,6 @@
                                     <a href="https://drive.google.com/file/d/1wIGQc3hp22K45x4C5Dye9qETw9N9eUxQ/view?usp=sharing" target="_blank" class="view-work-btn">
                                         <i class="fas fa-external-link-alt"></i> View Work
                                     </a>
-                                    <button class="view-image-btn" onclick="openImageModal('assets/Event Planning.png', 'Event Planning')">
-                                        <i class="fas fa-eye"></i> Preview
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -265,7 +244,7 @@
                     <div class="slide">
                         <div class="work-item">
                             <div class="work-media">
-                                <img src="assets/Travel Arrangements.png" alt="Travel Arrangements Work">
+                                <img src="assets/Travel Arrangements.png" alt="Travel Arrangements Work" style="cursor:pointer;" onclick="openImageModal('assets/Travel Arrangements.png', 'Travel Arrangements')">
                             </div>
                             <div class="work-content">
                                 <h3><a href="https://docs.google.com/presentation/d/1gywAQEBRPpdNq70IbYsis-rOxC-NZ23bSPrFI61XTFo/edit?usp=sharing" target="_blank">Travel Arrangements</a></h3>
@@ -274,9 +253,6 @@
                                     <a href="https://docs.google.com/presentation/d/1gywAQEBRPpdNq70IbYsis-rOxC-NZ23bSPrFI61XTFo/edit?usp=sharing" target="_blank" class="view-work-btn">
                                         <i class="fas fa-external-link-alt"></i> View Work
                                     </a>
-                                    <button class="view-image-btn" onclick="openImageModal('assets/Travel Arrangements.png', 'Travel Arrangements')">
-                                        <i class="fas fa-eye"></i> Preview
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -284,7 +260,7 @@
                     <div class="slide">
                         <div class="work-item">
                             <div class="work-media">
-                                <img src="assets/Presentation Design.png" alt="Presentation Design Work">
+                                <img src="assets/Presentation Design.png" alt="Presentation Design Work" style="cursor:pointer;" onclick="openImageModal('assets/Presentation Design.png', 'Presentation Design')">
                             </div>
                             <div class="work-content">
                                 <h3><a href="https://drive.google.com/drive/folders/1ZbVSXiCqWMczdDRkBJn7mAwQ3eMUzn9f?usp=drive_link" target="_blank">Presentation Design</a></h3>
@@ -293,9 +269,6 @@
                                     <a href="https://drive.google.com/drive/folders/1ZbVSXiCqWMczdDRkBJn7mAwQ3eMUzn9f?usp=drive_link" target="_blank" class="view-work-btn">
                                         <i class="fas fa-external-link-alt"></i> View Work
                                     </a>
-                                    <button class="view-image-btn" onclick="openImageModal('assets/Presentation Design.png', 'Presentation Design')">
-                                        <i class="fas fa-eye"></i> Preview
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -326,35 +299,142 @@
         <div class="section-overlay"></div>
         <div class="container">
             <h2>What Clients Say</h2>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"Chisom has been an absolute game-changer for my business. Her attention to detail and proactive approach has saved me countless hours every week."</p>
+            <div class="testimonials-slideshow">
+                <div class="testimonials-slideshow-container">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Chisom has been an absolute game-changer for my business. Her attention to detail and proactive approach has saved me countless hours every week."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <strong>Michael Chen</strong>
+                                <span>CEO, TechStart Solutions</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="testimonial-author">
-                        <strong>Michael Chen</strong>
-                        <span>CEO, TechStart Solutions</span>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Professional, reliable, and incredibly efficient. Chisom handles everything with such care that I can focus on growing my business without worry."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <strong>Jennifer Martinez</strong>
+                                <span>Founder, Creative Agency</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Working with Chisom has transformed how I manage my time. She's responsive, organized, and truly understands my business needs."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <strong>David Thompson</strong>
+                                <span>Consultant, Business Growth</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"Professional, reliable, and incredibly efficient. Chisom handles everything with such care that I can focus on growing my business without worry."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <strong>Jennifer Martinez</strong>
-                        <span>Founder, Creative Agency</span>
-                    </div>
+                <div class="testimonials-slideshow-controls">
+                    <button class="testimonial-prev-btn" aria-label="Previous testimonial">&#10094;</button>
+                    <button class="testimonial-next-btn" aria-label="Next testimonial">&#10095;</button>
                 </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"Working with Chisom has transformed how I manage my time. She's responsive, organized, and truly understands my business needs."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <strong>David Thompson</strong>
-                        <span>Consultant, Business Growth</span>
-                    </div>
+                <div class="testimonials-slideshow-dots">
+                    <span class="testimonial-dot active"></span>
+                    <span class="testimonial-dot"></span>
+                    <span class="testimonial-dot"></span>
                 </div>
             </div>
+            <script>
+            // Testimonial Slideshow (sideways slide, buttons, dots, auto)
+            (function() {
+                const testimonialSlides = document.querySelectorAll('.testimonial-slide');
+                const testimonialDots = document.querySelectorAll('.testimonial-dot');
+                const testimonialPrevBtn = document.querySelector('.testimonial-prev-btn');
+                const testimonialNextBtn = document.querySelector('.testimonial-next-btn');
+                const container = document.querySelector('.testimonials-slideshow-container');
+                let testimonialIndex = 0;
+                let testimonialInterval;
+                let startX = 0;
+                let currentX = 0;
+                let isDragging = false;
+                let threshold = 50; // px
+
+                function showTestimonial(idx) {
+                    testimonialSlides.forEach((slide, i) => {
+                        slide.classList.remove('active', 'prev');
+                        slide.style.transform = '';
+                        if (i === idx) {
+                            slide.classList.add('active');
+                            slide.style.transform = 'translateX(0)';
+                        } else if (i < idx) {
+                            slide.classList.add('prev');
+                            slide.style.transform = 'translateX(-100%)';
+                        } else {
+                            slide.style.transform = 'translateX(100%)';
+                        }
+                    });
+                    testimonialDots.forEach((dot, i) => dot.classList.toggle('active', i === idx));
+                    testimonialIndex = idx;
+                }
+
+                function nextTestimonial() {
+                    let next = (testimonialIndex + 1) % testimonialSlides.length;
+                    showTestimonial(next);
+                }
+                function prevTestimonial() {
+                    let prev = (testimonialIndex - 1 + testimonialSlides.length) % testimonialSlides.length;
+                    showTestimonial(prev);
+                }
+                function startAutoTestimonial() {
+                    testimonialInterval = setInterval(nextTestimonial, 7000);
+                }
+                function stopAutoTestimonial() {
+                    clearInterval(testimonialInterval);
+                }
+
+                // Mouse/touch swipe support
+                function onDragStart(e) {
+                    isDragging = true;
+                    startX = e.type.startsWith('touch') ? e.touches[0].clientX : e.clientX;
+                    currentX = startX;
+                }
+                function onDragMove(e) {
+                    if (!isDragging) return;
+                    currentX = e.type.startsWith('touch') ? e.touches[0].clientX : e.clientX;
+                }
+                function onDragEnd() {
+                    if (!isDragging) return;
+                    let diff = currentX - startX;
+                    if (Math.abs(diff) > threshold) {
+                        stopAutoTestimonial();
+                        if (diff < 0) {
+                            nextTestimonial();
+                        } else {
+                            prevTestimonial();
+                        }
+                        startAutoTestimonial();
+                    }
+                    isDragging = false;
+                }
+                container.addEventListener('mousedown', onDragStart);
+                container.addEventListener('mousemove', onDragMove);
+                container.addEventListener('mouseup', onDragEnd);
+                container.addEventListener('mouseleave', () => { isDragging = false; });
+                container.addEventListener('touchstart', onDragStart, {passive:true});
+                container.addEventListener('touchmove', onDragMove, {passive:true});
+                container.addEventListener('touchend', onDragEnd);
+
+                testimonialNextBtn.addEventListener('click', () => { stopAutoTestimonial(); nextTestimonial(); startAutoTestimonial(); });
+                testimonialPrevBtn.addEventListener('click', () => { stopAutoTestimonial(); prevTestimonial(); startAutoTestimonial(); });
+                testimonialDots.forEach((dot, i) => {
+                    dot.addEventListener('click', () => { stopAutoTestimonial(); showTestimonial(i); startAutoTestimonial(); });
+                });
+
+                showTestimonial(testimonialIndex);
+                startAutoTestimonial();
+            })();
+            </script>
         </div>
     </section>
 
@@ -372,7 +452,7 @@
                             <i class="fas fa-envelope"></i>
                             alenastephanie16@gmail.com
                         </a>
-                        <a href="https://www.linkedin.com/in/chisom-atuegbu" class="social-link">
+                        <a href="https://www.linkedin.com/in/chisom-atuegbu" target="_blank" class="social-link">
                             <i class="fab fa-linkedin"></i>
                             linkedin.com/in/chisom-atuegbu
                         </a>
